@@ -48,14 +48,14 @@ export default () => {
                                     <div className="w-24 h-24 mx-auto px-1">
                                         <img
                                             src={item.avatar}
-                                            className="w-full h-full rounded-full"
-                                            alt=""
+                                            className="w-screen-full h-screen-full rounded-full"
+                                            alt="avatar"
                                         />
                                     </div>
                                     <div className="mt-2 px-1 text-justify md:items-center">
                                         <h4 className="text-indigo-400 font-semibold sm:text-lg text-center"> {item.name}</h4>
-                                        <p className="text-gray-400 font-semibold sm:text-lg text-center"> {item.title}</p>
-                                        <p className="text-gray-600 text-center">{item.desc}</p>
+                                        <p className="text-gray-400 font-semibold sm:text-lg text-center" alt="namaJabatan"> {item.title}</p>
+                                        <p className="text-gray-600 text-center" text="description">{item.desc}</p>
                                        
                                     </div>
                                 </li>
@@ -70,7 +70,7 @@ export default () => {
                     </div>
                 </div>
                 <div className="flex-none mt-14 md:mt-0 md:max-w-xl ml-8 md:items-center">
-                    <img src={Hero1} className="w-full mx-auto sm:w-10/12 lg:w-full md:rounded-tl-[108px] md:rounded-br-[108px]" />
+                    <img src={Hero1} className="w-screen-full mx-auto sm:w-10/12 lg:w-full md:rounded-tl-[108px] md:rounded-br-[108px]" alt="Company" />
                 </div>
             </section>
         </div>

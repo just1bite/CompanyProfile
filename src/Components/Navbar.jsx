@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/Logo.avif'
+
+<meta name="Company Profile Fahri" content="Ini adalah code challenge kedua dari purwadhika"></meta>
+
 export default () => {
 
   const [state, setState] = useState(false)
@@ -14,7 +17,7 @@ export default () => {
                             src={Logo} 
                             width={120} 
                             height={50}
-                            alt="Float UI logo"
+                            alt="SleeplessNight Logo"
                         />
                     </Link>
                   <div className="md:hidden">

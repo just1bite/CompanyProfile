@@ -41,9 +41,9 @@ export default () => {
                                             alt=""
                                         />
                                     </div>
-                                    <div className="mt-2 px-1 text-justify">
-                                        <h4 className="text-indigo-400 font-semibold sm:text-lg"> {item.name.title}.{item.name.first} {item.name.last}</h4>
-                                        <p className="text-gray-600">{item.location.timezone.description}</p>
+                                    <div className="mt-2 px-1 text-justify md:items-center">
+                                        <h4 className="text-indigo-400 font-semibold sm:text-lg text-center"> {item.name.title}.{item.name.first} {item.name.last}</h4>
+                                        <p className="text-gray-600 text-center">{item.location.timezone.description}</p>
                                        
                                     </div>
                                 </li>
@@ -51,13 +51,13 @@ export default () => {
                         }
                     </ul>
                 </div>
-                    <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
+                    <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start py-8">
                         <a href="/About" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
                             Learn more about us!
                         </a>
                     </div>
                 </div>
-                <div className="flex-none mt-14 md:mt-0 md:max-w-xl ml-8">
+                <div className="flex-none mt-14 md:mt-0 md:max-w-xl ml-8 md:items-center">
                     <img src={Hero1} className="w-full mx-auto sm:w-10/12 lg:w-full md:rounded-tl-[108px] md:rounded-br-[108px]" />
                 </div>
             </section>

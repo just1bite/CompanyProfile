@@ -1,16 +1,27 @@
 import Hero1 from "../assets/Hero1.avif"
-import { useEffect, useState } from "react";
-import { getData } from "../lib/data";
 
 export default () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        getData().then((res) => {
-        setData(res.results);
-    }
-    );
-    }, []);
   
+    const data = [
+        {
+            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+            name: "Martin escobar",
+            title: "Product designer",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae."
+        },
+        {
+            avatar: "https://randomuser.me/api/portraits/women/79.jpg",
+            name: "Angela stian",
+            title: "Product designer",
+            desc: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+        },
+        {
+            avatar: "https://randomuser.me/api/portraits/men/86.jpg",
+            name: "Karim ahmed",
+            title: "DevOp engineer",
+            desc: "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain."
+        },
+    ]
     return (
         <>
          <div className="bg-gray-900 pt-5 px-4 mx-auto max-w-screen-full sm:px-8 sm:flex sm:space-x-6 items-center">
@@ -36,14 +47,15 @@ export default () => {
                                 <li key={idx}>
                                     <div className="w-24 h-24 mx-auto px-1">
                                         <img
-                                            src={item.picture.large}
+                                            src={item.avatar}
                                             className="w-full h-full rounded-full"
                                             alt=""
                                         />
                                     </div>
                                     <div className="mt-2 px-1 text-justify md:items-center">
-                                        <h4 className="text-indigo-400 font-semibold sm:text-lg text-center"> {item.name.title}.{item.name.first} {item.name.last}</h4>
-                                        <p className="text-gray-600 text-center">{item.location.timezone.description}</p>
+                                        <h4 className="text-indigo-400 font-semibold sm:text-lg text-center"> {item.name}</h4>
+                                        <p className="text-gray-400 font-semibold sm:text-lg text-center"> {item.title}</p>
+                                        <p className="text-gray-600 text-center">{item.desc}</p>
                                        
                                     </div>
                                 </li>

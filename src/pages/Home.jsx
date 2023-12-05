@@ -1,10 +1,10 @@
 import React from 'react'
 import Testimonial from '../Components/Testimonial'
 import Hero from '../Components/Hero'
-import Idcard from '../assets/Idcard.avif'
-import Spanduk from '../assets/spanduk.avif'
-import Emoney from '../assets/Emoney.avif'
-import Kaos from '../assets/Baju.avif'
+import Idcard from '../assets/idcard.jpg'
+import Spanduk from '../assets/spanduk.jpg'
+import Emoney from '../assets/Emoney.jpg'
+import Kaos from '../assets/Baju.jpg'
 import Culture from './Culture'
 
 

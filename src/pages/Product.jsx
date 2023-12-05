@@ -1,13 +1,13 @@
 import React from 'react'
 import Testimonial from '../Components/Testimonial'
-import Idcard from '../assets/Idcard.avif'
-import Spanduk from '../assets/spanduk.avif'
-import Emoney from '../assets/Emoney.avif'
-import Kaos from '../assets/Baju.avif'
-import Mug from '../assets/Mug.avif'
-import Undangan from '../assets/Undangan.avif'
-import Gantungan from '../assets/Gantungan.avif'
-import Kipas from '../assets/Kipas.avif'
+import Idcard from '../assets/idcard.jpg'
+import Spanduk from '../assets/spanduk.jpg'
+import Emoney from '../assets/Emoney.jpg'
+import Kaos from '../assets/Baju.jpg'
+import Mug from '../assets/Mug.jpg'
+import Undangan from '../assets/Undangan.jpg'
+import Gantungan from '../assets/Gantungan.jpg'
+import Kipas from '../assets/Kipas.jpg'
 
 export default () => {
     const posts = [

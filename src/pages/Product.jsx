@@ -5,9 +5,9 @@ import Spanduk from '../assets/spanduk.jpg'
 import Emoney from '../assets/Emoney.jpg'
 import Kaos from '../assets/Baju.jpg'
 import Mug from '../assets/Mug.jpg'
-import Undangan from '../assets/Undangan.jpg'
-import Gantungan from '../assets/Gantungan.jpg'
-import Kipas from '../assets/Kipas.jpg'
+import Undangan from '../assets/undangan.jpg'
+import Gantungan from '../assets/gantungan.jpg'
+import Kipas from '../assets/Kipas.avif'
 
 export default () => {
     const posts = [

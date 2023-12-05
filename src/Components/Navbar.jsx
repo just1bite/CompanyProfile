@@ -1,14 +1,19 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/Logo.avif'
+import { Helmet } from 'react-helmet';
 
-<meta name="Company Profile Fahri" content="Ini adalah code challenge kedua dari purwadhika"></meta>
+
 
 export default () => {
 
   const [state, setState] = useState(false)
 
   return (
+    <>
+    <Helmet>
+    <meta name="Company Profile Fahri" content="Ini adalah code challenge kedua dari purwadhika"></meta>
+    </Helmet>
       <nav className=" bg-white w-full border-b md:border-0 md:static">
           <div className="items-center px-4 max-w-screen-full mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -56,5 +61,6 @@ export default () => {
               </div>
           </div>
       </nav>
+      </>
   )
 }

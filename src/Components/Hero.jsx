@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Hero1 from "../assets/Hero1.avif"
 
 export default () => {
@@ -54,8 +55,8 @@ export default () => {
                                     </div>
                                     <div className="mt-2 px-1 text-justify md:items-center">
                                         <h4 className="text-indigo-400 font-semibold sm:text-lg text-center"> {item.name}</h4>
-                                        <p className="text-gray-400 font-semibold sm:text-lg text-center" alt="namaJabatan"> {item.title}</p>
-                                        <p className="text-gray-600 text-center" text="description">{item.desc}</p>
+                                        <p className="text-gray-300 font-semibold sm:text-lg text-center" alt="namaJabatan"> {item.title}</p>
+                                        <p className="text-gray-400 text-center" text="description">{item.desc}</p>
                                        
                                     </div>
                                 </li>
@@ -64,9 +65,9 @@ export default () => {
                     </ul>
                 </div>
                     <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start py-8">
-                        <a href="/About" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+                        <Link to="/About" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
                             Learn more about us!
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="flex-none mt-14 md:mt-0 md:max-w-xl ml-8 md:items-center">

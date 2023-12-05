@@ -6,6 +6,7 @@ import Spanduk from '../assets/spanduk.avif'
 import Emoney from '../assets/Emoney.avif'
 import Kaos from '../assets/Baju.avif'
 import Culture from './Culture'
+import { Link } from 'react-router-dom'
 
 
 export default () => {
@@ -54,7 +55,7 @@ export default () => {
                 {
                     posts.map((items, key) => (
                         <article className="hover:bg-indigo-600 max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
-                            <a href={items.href}>
+                            <Link to={items.href}>
                                 <img src={items.img} loading="lazy" alt={items.title}  className="w-screen-full h-50 rounded-t-md" />
                                 <div className="pt-3 ml-4 mr-2 mb-3">
                                     <h3 className="text-xl text-gray-900">
@@ -62,7 +63,7 @@ export default () => {
                                     </h3>
                                     <p className="text-gray-400 text-sm mt-1">{items.desc}</p>
                                 </div>
-                            </a>
+                            </Link>
                             
                         </article>
                         

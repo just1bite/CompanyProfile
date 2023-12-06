@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 import Hero1 from "../assets/Hero1.avif"
 
 export default () => {
@@ -47,18 +47,15 @@ export default () => {
                     </div>
                 </div>
                 <div className="flex-none mt-14 md:mt-0 md:max-w-xl ml-8 md:items-center">
-                    <img src={Hero1} className="w-screen-full mx-auto sm:w-10/12 lg:w-full md:rounded-tl-[108px] md:rounded-br-[108px]" alt="Company" />
+                    <img alt="Company Hero" src={Hero1} className="w-screen-full mx-auto sm:w-10/12 lg:w-full md:rounded-tl-[108px] md:rounded-br-[108px]" />
                 </div>
             </section>
             
         </div>
         <section className="py-14" id="teams">
-        <h3 className="text-indigo-600 max-w-screen-xl mx-auto font-semibold mb-2 px-5 md:px-8">
-                        Teams
-                    </h3>
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-full">
-                    <h3 className="text-gray-800 text-3 font-semibold sm:text-4xl">
+                    <h3 className="text-indigo-600 text-3 font-semibold sm:text-4xl">
                         Meet our team of Engineers, Product designer, and DevOp engineer.
                     </h3>
                     <p className="text-gray-600 mt-2 font-medium">
@@ -72,20 +69,22 @@ export default () => {
                                 <li key={idx}>
                                     <div className="w-24 h-24 mx-auto px-1">
                                         <img
-                                            src={item.avatar}
-                                            className="w-screen-full h-screen-full rounded-full"
                                             alt="avatar"
+                                            src={item.avatar}
+                                            className=" w-max h-max rounded-full"
+                                            
                                         />
                                     </div>
                                     <div className="mt-2 px-1 text-justify md:items-center">
-                                        <h4 className="text-indigo-400 font-semibold sm:text-lg text-center"> {item.name}</h4>
-                                        <p className="text-gray-800 font-semibold sm:text-lg text-center" alt="namaJabatan"> {item.title}</p>
-                                        <p className="text-gray-600 text-center" text="description">{item.desc}</p>
+                                        <h4 className="text-indigo-600 font-bold sm:text-lg text-center"> {item.name}</h4>
+                                        <p className="text-gray-800 font-bold sm:text-lg text-center" alt="namaJabatan"> {item.title}</p>
+                                        <p className="text-gray-800 font-semibold text-center" text="description">{item.desc}</p>
                                        
                                     </div>
                                 </li>
                             ))
                         }
+
                     </ul>
                 </div>
                 </div>

@@ -30,12 +30,9 @@ export default () => {
     return (
         
         <section className="py-8">
-              <h3 className="text-indigo-600 max-w-screen-xl mx-auto font-semibold mb-2 px-5 md:px-8">
-                        Culture
-                    </h3>
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                 <div className="mx-auto text-left">
-                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl text-left">
+                    <h3 className="text-indigo-600 text-3xl font-semibold sm:text-4xl text-left">
                         The fastest way to know our company
                     </h3>
                 </div>

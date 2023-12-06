@@ -19,10 +19,11 @@ export default () => {
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link to= "/">
                         <img
-                            src={Logo} 
-                            width={120} 
-                            height={50}
                             alt="SleeplessNight Logo"
+                            src={Logo} 
+                            width={200} 
+                            height={50}
+                            
                         />
                     </Link>
                   <div className="md:hidden">

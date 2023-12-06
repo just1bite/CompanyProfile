@@ -65,10 +65,11 @@ export default () => {
                             data.map((item, idx) => (
                                 <li key={idx}>
                                     <div className="w-24 h-24 mx-auto">
-                                        <img
+                                        <img 
+                                             alt="Avata About"
                                             src={item.picture.large}
                                             className="w-full h-full rounded-full"
-                                            alt=""
+                                           
                                         />
                                     </div>
                                     <div className="mt-1 text-center">

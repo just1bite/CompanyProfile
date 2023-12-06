@@ -32,9 +32,10 @@ export default () => {
                                 <li key={idx}>
                                     <div className="w-full h-60 sm:h-52 md:h-56">
                                         <img
+                                             alt="Avatar Teams"
                                             src={item.picture.large}
                                             className="w-full h-full object-cover object-center shadow-md rounded-xl"
-                                            alt=""
+                                           
                                         />
                                     </div>
                                     <div className="mt-4">

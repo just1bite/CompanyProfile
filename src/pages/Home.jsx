@@ -39,7 +39,7 @@ export default () => {
     <>
       <Hero />
       <Culture />
-      <section className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+      <section className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 py-8">
         <h3 className="text-indigo-600 font-semibold mb-1">
                         Product
                     </h3>
@@ -48,7 +48,7 @@ export default () => {
                     Our Product
                 </h1>
                 <p className="mt-3 text-gray-500">
-                The quality we provide to you is always number 1
+                The quality we provide to you is always number one
                 </p>
             </div>
             <div className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
@@ -75,9 +75,7 @@ export default () => {
                             </Link>
                         </div>
             </div>
-            
         </section>
-        
         <Testimonial/>
 
       </>

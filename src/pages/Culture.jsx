@@ -29,7 +29,7 @@ export default () => {
 
     return (
         
-        <section className="py-14">
+        <section className="py-8">
               <h3 className="text-indigo-600 max-w-screen-xl mx-auto font-semibold mb-2 px-5 md:px-8">
                         Culture
                     </h3>

@@ -15,8 +15,8 @@ export default () => {
    
     return (
         <>
-        <section className="py-14">
-            <div className="max-w-screen-full mx-auto px-4 md:px-8">
+        <section className="py-8">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-full">
                     <h3 className="text-gray-800 text-3 font-semibold sm:text-4xl">
                         Meet our team of Engineers, designers, and product managers.

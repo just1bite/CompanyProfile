@@ -56,12 +56,12 @@ export default () => {
     
   return (
     <>
-      <section className="mt-8 mx-auto px-4 max-w-screen-xl md:px-8">
+      <section className="mt-8 mx-auto px-4 max-w-screen-xl md:px-8 py-8">
       <h1 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                     Our Product
                 </h1>
                 <p className="mt-3 text-gray-500">
-                The quality we provide to you is always number 1
+                The quality we provide to you is always number one
                 </p>
             <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                 {

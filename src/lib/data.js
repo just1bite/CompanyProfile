@@ -1,4 +1,4 @@
-const API = "https://randomuser.me/api/?results=6";
+const API = "https://randomuser.me/api/?results=3";
 
 export async function getData() {
   try {

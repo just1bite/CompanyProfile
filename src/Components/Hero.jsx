@@ -86,11 +86,6 @@ export default () => {
                                 </li>
                             ))
                         }
-                        <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-                            <Link to="/Product" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
-                                All Team Members
-                            </Link>
-                        </div>
                     </ul>
                 </div>
                 </div>
